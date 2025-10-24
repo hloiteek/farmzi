@@ -1,14 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .header{
     width: 100%;
-    height: 150px;
+    height: 100px;
     background-color:#177165;
-        border-bottom: 1px transparent white;
+    border-bottom: 1px transparent white;
 }
 
 .nav{
@@ -62,106 +56,141 @@ ul li a:hover{
     display: flex;
 }
 
-.cho h1{
+.left h1{
     font-size: 60px;
     color: white;
 }
 
-.cho{
+.left{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
+    align-content: start;
 }
 
-.cho h6{
-    font-family: Segoe UI, Roboto, Regular,;
-    font-size: 17px;
-    color: #A4D6CF;
-}
-
-.rat{
-    width: 212px;
-    height: 44px;
-
-    border: 1px solid #177165;
-    border-radius: 0%;
-
-    background: #ffffff;
-    color: #177165;
-
-    transition: 0.4s all ease;
-}
-
-.today{
+.about{
     width: 100%;
     height: 1400px;
     background-color: #ffffff;
-
     display: flex;
     justify-content: center;
-
     margin-top: 120px;
     padding: 60px;
-
     border-top: 1px dashed #777777;
 }
 
-.today_container{
-    width: 75%;
+.about_container{
+    width: 90%;
     height: 100%;
-
     display: flex;
     flex-direction: column;
 }
 
-.text1{
+.text{
     width: 100%;
     height: auto;
-
     display: flex;
     flex-direction: column;
-
-
 }
 
-.temniprinc{
-    width: 70%;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-
-    color: #177165;
-    font-size: 48px;
-}
-
-.neznayu{
+.image_text{
     width: 100%;
     height: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.texts{
+.text2{
     width: 500px;
     height: 726px;
-
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content: space-between;
 }
 
 .nada{
     color: #177165;
     font-size: 32px;
+    font-family: "Playfair Display";
+}
+
+.zavtra{
+    width: 100%;
+    height: 882px;
+    display: flex;
+    justify-content: center;
+    background-color: #E1F4F2;
+}
+
+.zavtra_box{
+    width: 80%;
+    height: 70%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nenada{
+    display: flex;
+    flex-direction: column;
+}
+
+.loves{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.love_books{
+    width: 247.5px;
+    height: 343.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.dutt{
+    display: flex;
+    justify-content: center;
+}
+
+.segodnya{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #177165;
+}
+
+.segodnya_box{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.neverlose{
+    width: 463px;
+    height: 98px;
+    background-color: #23786D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .text3{
@@ -170,91 +199,178 @@ ul li a:hover{
     color: #777777;
 }
 
-.fuh{
-    color: #177165;
-    font-size: 22px;
-}
-
-.silka{
-    width: 212px;
-    height: 44px;
-
-    border: 1px solid #177165;
-    border-radius: 0%;
-
-    background: #ffffff;
-    color:#177165;
-
-    transition: 0.4s all ease;
-}
-
-.silka:hover{
-    background: #177165;
-    color:#ffffff;
-}
-.gde{
-    width: 100%;
-    height: auto;
-
-}
-
-.segodnya{
-    background-color: #E1F4F2;
-}
-
-.hloi{
-    width: 70%;
-    height: auto;
-    
-    color: #177165;
-    font-size: 48px;
-}
-
-.image_box{
+.fatality{
+    width: 60%;
+    height:80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
-.segodnya1{
+.plague{
+    display: flex;
+    flex-direction: column;
+}
+
+.madkid{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.madkid_box{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.overdoz{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.temniprinc{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: last baseline;
+}
+
+.womans{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.woman{
+    width: 346.66px;
+    height: 703.28px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.segodnya_box{
+.temni{
+    width: 70%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-.you{
     color: #177165;
-    font-size: 32px;
+    font-size: 48px;
+    font-family: "Playfair Display";
 }
 
-.butt{
+.princ{
+    width: 70%;
+    height: auto;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: baseline;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Playfair Display";
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.knopka{
+.text1{
+font-family: 'Segoe UI', Roboto;
+    font-size: 16px;
+    color:#A4D6CF
+}
+
+.Services{
+    font-family: 'Segoe UI', Roboto;
+    font-size: 16px;
+    color: #A4D6CF;
+}
+
+.nakoi{
+    color: #177165;
+    font-size: 22px;
+    font-family: "Playfair Display";
+}
+
+.skuf{
     width: 212px;
     height: 44px;
-
+    appearance: none;
     border: 1px solid #177165;
     border-radius: 0%;
-
-    background: #E1F4F2;
+    background: #ffffff;
     color:#177165;
-
     transition: 0.4s all ease;
 }
 
-.knopka:hover{
+.skuf:hover{
     background: #177165;
-    color:#E1F4F2;
+    color:#ffffff;
+}
+
+.skuf2{
+    width: 212px;
+    height: 44px;
+    appearance: none;
+    border: 1px solid #177165;
+    border-radius: 0%;
+    background: #E1F4F2;
+    color:#177165;
+    transition: 0.4s all ease;
+}
+
+.skuf2:hover{
+    background: #177165;
+    color:#ffffff;
+}
+
+.text4{
+    font-size: 22px;
+    font-family: "Playfair Display";
+    color:#177165;
+}
+
+.ramka{
+    width: 44px;
+    height: 44px;
+    color: #A4D6CF;
+}
+
+.cho{
+    font-family: 'Segoe UI', Roboto;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.img_trava{
+    width: 570;
+    height: 415;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.nesegodnya{
+    width: 100%;
+    height: 415px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #177165;
 }
